@@ -6,7 +6,7 @@ Rápida descrição do objetivo de fazer esse projeto
 | -------------  | --- |
 | :sparkles: Nome        | **Responsividade**
 | :label: Tecnologias | html, css
-| :rocket: URL         | 
+| :rocket: URL         | http://responsiveness-flquomgi4-noliv197.vercel.app
 | :fire: Desafio     | https://7daysofcode.io/matricula/responsividade
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
