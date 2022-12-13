@@ -4,7 +4,7 @@
 | -------------  | --- |
 | :sparkles: Name        | **Responsiveness**
 | :label: Build With | html, css
-| :rocket: URL         | http://responsiveness-flquomgi4-noliv197.vercel.app
+| :rocket: URL         | http://responsiveness-eight.vercel.app
 | :fire: Challenge     | https://7daysofcode.io/matricula/responsividade
 
 ![](https://imagizer.imageshack.com/img923/1466/KF1lX6.gif#vitrinedev)
