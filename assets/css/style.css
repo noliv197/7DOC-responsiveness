@@ -1,0 +1,137 @@
+
+/* Cards */
+.card__remoto,
+.card__local{
+    border-radius: 8px;
+    background-color: var(--cor-branco);
+    margin: 0 auto .7rem auto;
+    min-width: 300px;
+    max-width: 400px;
+}
+
+/* Container */
+.flex{
+    display: flex;
+    align-items: center;
+}
+.secao__cards:first-child{
+    margin-top: 7rem;
+}
+.secao__cards:last-child{
+    margin-bottom: 5rem;
+}
+.cards{
+    min-width: 300px;
+}
+/* .menu{
+    position: fixed;
+    bottom: 0;
+} */
+.cabecalho__container{
+    background-color: var(--cor-cinza-claro);
+    padding-top: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    max-height: 140px;    
+}
+.cliente__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--cor-cinza-claro);
+    padding: 1rem;
+}
+.paciente__container{
+    min-width: 100px;
+    max-width: 75%;
+}
+.consulta__container{
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem 1rem 1rem ;
+}
+.textos__container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    justify-content: space-between;
+}
+.textos__container .texto__cinza--pequeno{
+    padding-top: .5rem;
+    background-position: left bottom;
+    padding-left: 1.3rem;
+}
+.botoes__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu__container{
+    background-color: var(--cor-branco);
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width:100vw;
+}
+.menu__container span{
+    padding: 2rem 0 .5rem 0;
+    background-position: center 30% ;
+}
+.menu__container span:first-child{
+    color: var(--cor-azul);
+}
+
+/* Imagens */
+.imagem__principal{
+    min-width: 57px;
+    max-width: 7.5%;
+}
+.imagem__perfil{
+    min-width: 32px;
+    max-width: 20%;
+}
+
+@media screen and (min-width:780px){
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+        margin: 0;
+    }
+    .menu__container{
+        justify-content: center;
+    }
+    .menu__container .texto__menu{
+        margin: 0 3.5rem;
+
+    }
+}
+@media screen and (min-width:1100px){
+    .secao__cards:first-child{
+        margin-top: 9rem;
+    }
+    .cards{
+        grid-template-columns: repeat(3, 2fr);
+    }
+    .menu__modal{
+        display: none;
+    }
+    .menu__container{
+        left: 0;
+        top: 0;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: 100vh;
+        width: auto;
+    }
+    .menu__container .texto__menu{
+        background-position: left center;
+        margin: 0 1rem ;
+        padding: .75rem 2rem;
+
+    }
+}

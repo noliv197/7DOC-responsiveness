@@ -1,0 +1,41 @@
+/* Botoes */
+.botao{
+    border-radius: 8px;
+    border: none;
+    color: var(--cor-branco);
+    font-weight: var(--peso-medio);
+    font-size: var(--tamanho-normal);
+    text-align: center;
+    text-decoration: none;
+    padding: .8rem 1rem;
+}
+.botao--amarelo{
+    background-color: var(--cor-amarelo);
+}
+.botao--azul{
+    background-color: var(--cor-azul);
+    /* max-width: 40%;
+    min-width: 280px; */
+}
+.botao--branco{
+    color: var(--cor-cinza-escuro);
+    border: 1px solid var(--cor-cinza-claro);
+}
+.botao__icone{
+    background: var(--icone-mensagem);
+    background-color: var(--cor-cinza-claro);
+    background-position: center;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+}
+.botao__modal{
+    background-color: var(--cor-azul);
+    background-position: center;
+    border: none;
+    border-radius: 50%;
+    filter: drop-shadow(0px 4px 16px rgba(72, 148, 255, 0.5));
+    width: 56px;
+    height: 56px;
+    margin-left: auto;
+}
