@@ -29,6 +29,6 @@
   - Day 6: On larger layouts, change the floating button to a form
   - Day 7: Publish the page
   
-  - Observations:
-  - The focus of the exercise was using CSS, therefore I preferred to make the side menu with css instead of javascript. 
-    - I used this [blog](http://lucasmaiaesilva.com.br/posts/criando-modal-simples-com-html-e-css/) for reference to create the modal menu
+- Observations:
+- The focus of the exercise was using CSS, therefore I preferred to make the side menu with css instead of javascript. 
+  - I used this [blog](http://lucasmaiaesilva.com.br/posts/criando-modal-simples-com-html-e-css/) for reference to create the modal menu
