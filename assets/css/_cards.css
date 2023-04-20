@@ -1,0 +1,79 @@
+.cliente__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--bkg-principal);
+    padding: 1rem;
+}
+
+.paciente__container{
+    display: flex;
+    align-items: center;
+    min-width: 100px;
+    max-width: 75%;
+}
+
+.consulta__container{
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem 1rem 1rem ;
+}
+
+.secao__cards:first-child{
+    margin-top: 7rem;
+}
+
+.secao__cards:last-child{
+    margin-bottom: 5rem;
+}
+
+.cards{
+    min-width: 300px;
+}
+
+.imagem__perfil{
+    min-width: 32px;
+    max-width: 20%;
+    border-radius: 50%;
+}
+
+.info__container .texto__claro--pequeno{
+    padding-top: .5rem;
+    background-position: left bottom;
+    padding-left: 1.3rem;
+}
+
+.card__remoto,
+.card__local{
+    border-radius: 8px;
+    background-color: var(--bkg-secundario);
+    margin: 0 auto .7rem auto;
+    min-width: 300px;
+    max-width: 400px;
+}
+
+.icone--video{
+    background: var(--icone-video);
+}
+
+.icone--local{
+    background: var(--icone-local);
+}
+
+@media screen and (min-width:780px){
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+        margin: 0;
+    }
+}
+@media screen and (min-width:1100px){
+    .secao__cards:first-child{
+        margin-top: 9rem;
+    }
+    
+    .cards{
+        grid-template-columns: repeat(3, 2fr);
+    }
+}

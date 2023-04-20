@@ -1,13 +1,18 @@
+.formulario__container{
+    display: none;
+}
+
 form{
     display: flex;
+    align-items: flex-start;
     flex-wrap: wrap;
     margin: 0 0 1rem 1rem ;
-    align-items: flex-start;
 }
+
 form .botao{
+    align-self: flex-end;
     margin-bottom: 1rem;
     padding: 1rem 5rem;
-    align-self: flex-end;
 }
 
 .input__container{
@@ -16,22 +21,32 @@ form .botao{
     width: 400px;
     margin: 1rem 1rem 1rem 0;
 }
+
 .input__padrao{
-    background-color: var(--cor-branco);
-    padding: .75rem;
+    background-color: var(--bkg-secundario);
     border-radius: 8px;
     border: none;
+    color: var(--cor-secundaria);
+    padding: .75rem;
     margin-top: 1rem;
-    color: var(--cor-cinza);
 }
-input[type="date" i],
+
 .input__padrao::placeholder{
+    color: var(--cor-secundaria);
     font-size: var(--tamanho-pequeno);
     font-weight: var(--peso-medio);
-    color: var(--cor-cinza);
     font-family: var(--fonte);
 }
 
-input:active{
-    border: 1px solid var(--cor-azul);
+textarea:focus,
+input:focus{
+    outline: none;
+    border: 1px solid var(--bkg-destaque-primaria);
+}
+
+@media screen and (min-width: 1100px){
+    .formulario__container{
+        display: block;
+        margin: 2rem 0;
+    }
 }
